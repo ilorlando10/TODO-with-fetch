@@ -1,12 +1,34 @@
 
-/* 
+body{background-color: black;
+}
+.body{ background: rgb(127, 214, 127);
+    font-size: 1.5em; 
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    color: rgb(7, 0, 0);
+    border-radius: 5%;
+    padding: 20px;
+}
+h1{
+   margin: auto;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+color: rgb(119, 11, 11);
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.list{   
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+    
+}
+.deletebutton{
+     background-color: rgb(82, 80, 80);
+     color: rgb(127, 214, 127);
+     border-radius: 30%;
+    
+}
